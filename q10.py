@@ -14,13 +14,13 @@
 
 contador = 0
 
-def incrementar():
-    contador += 1
-    return contador
+def incrementar(num):
+    num += 1
+    return num
 
-incrementar()
-incrementar()
-incrementar()
+contador = incrementar(contador)
+contador = incrementar(contador)
+contador = incrementar(contador)
 print(contador)
 
 

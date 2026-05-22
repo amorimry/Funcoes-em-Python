@@ -6,6 +6,10 @@ def cabecalho (titulo):
 {titulo.center(40)}
 ----------------------------------------
 """)
+    # espaco = int((40-len(titulo))/2)
+    # print("-"*40)
+    # print(f"{" "*espaco}{titulo}{" "*espaco}")
+    # print("-"*40)
     
 cabecalho("CADASTRO DE CLIENTES")
 cabecalho("RELATÓRIO DE VENDAS")
